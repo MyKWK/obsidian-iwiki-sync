@@ -1,0 +1,10 @@
+{
+  "id": "iwiki-sync",
+  "name": "iWiki Sync",
+  "version": "0.1.0",
+  "minAppVersion": "1.11.4",
+  "description": "Manually push the current note's content to an existing iWiki MD or DOC document referenced by the iwiki_url frontmatter property, via a single Cmd/Ctrl+P command. No automatic sync, no attachment upload.",
+  "author": "MyKWK",
+  "authorUrl": "https://github.com/MyKWK",
+  "isDesktopOnly": true
+}

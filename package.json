@@ -1,0 +1,26 @@
+{
+  "name": "iwiki-sync",
+  "version": "0.1.0",
+  "description": "Obsidian plugin: manual command to push the current note's content to an existing iWiki MD/DOC document referenced by its iwiki_url frontmatter property. No automatic sync, no attachment upload.",
+  "main": "main.js",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MyKWK/obsidian-iwiki-sync"
+  },
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "node --test tests/*.test.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "^0.28.2",
+    "obsidian": "^1.5.7-1",
+    "tslib": "2.6.2",
+    "typescript": "5.4.5"
+  }
+}
